@@ -1,8 +1,7 @@
----
 items:
   - text: Home
-    url: "#"
+    url: /
   - text: Projects
-    url: "#"
+    url: /projects
   - text: Blog
-    url: "/blog"
+    url: /blog
