@@ -1,8 +1,6 @@
 ---
 items:
   - text: Home
-    url: "#"
-  - text: Projects
-    url: "#"
+    url: "/"
   - text: Blog
     url: "/blog"
