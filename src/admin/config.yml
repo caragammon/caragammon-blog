@@ -12,6 +12,16 @@ public_folder: "/static/img"
 local_backend: true
 publish_mode: editorial_workflow
 collections:
+  - label: "Pages"
+    name: "page"
+    folder: "src/pages"
+    create: true
+    editor:
+      preview: true
+    fields: 
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
